@@ -1,4 +1,29 @@
-[Info  - 4:27:28 PM] 2020/05/08 16:27:28 Build info
+[Error - 4:40:53 PM] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-jsonrpc/lib/main.js:904:25)
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:74:35)
+	at /Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:2208:28
+[Error - 4:40:53 PM] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-jsonrpc/lib/main.js:904:25)
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:74:35)
+	at /Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:2208:28
+[Error - 4:40:53 PM] Request textDocument/codeAction failed.
+Error: Connection got disposed.
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-jsonrpc/lib/main.js:904:25)
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:74:35)
+	at /Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:2208:28
+[Error - 4:40:53 PM] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-jsonrpc/lib/main.js:904:25)
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:74:35)
+	at /Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:2208:28
+[Error - 4:40:53 PM] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-jsonrpc/lib/main.js:904:25)
+	at Object.dispose (/Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:74:35)
+	at /Users/hduran/.vscode/extensions/ms-vscode.go-0.14.1/node_modules/vscode-languageclient/lib/client.js:2208:28
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 Build info
 ----------
 golang.org/x/tools/gopls 0.4.0
     golang.org/x/tools/gopls@v0.4.0 h1:G4+YP9kaV4dJb79J5MobyApxX493Qa6VoiTceUmxqik=
@@ -16,12 +41,7 @@ Go info
 go version go1.13.8 darwin/amd64
 
 
-[Info  - 4:27:28 PM] 2020/05/08 16:27:28 go/packages.Load
-	snapshot=0
-	directory=/Users/hduran/goplshatestags
-	query=[./... builtin]
-	packages=1
-[Info  - 4:27:28 PM] 2020/05/08 16:27:28 go env for /Users/hduran/goplshatestags
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go env for /Users/hduran/goplshatestags
 (valid build configuration = true)
 (build flags: [])
 GO111MODULE=""
@@ -52,1004 +72,80 @@ CGO_CXXFLAGS="-g -O2"
 CGO_FFLAGS="-g -O2"
 CGO_LDFLAGS="-g -O2"
 PKG_CONFIG="pkg-config"
-GOGCCFLAGS="-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/xh/zk17mwt55vd3h_bpcnptk_d40000gn/T/go-build755697675=/tmp/go-build -gno-record-gcc-switches -fno-common"
+GOGCCFLAGS="-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/xh/zk17mwt55vd3h_bpcnptk_d40000gn/T/go-build493416261=/tmp/go-build -gno-record-gcc-switches -fno-common"
 
-[Info  - 4:27:29 PM] 2020/05/08 16:27:29 go/packages.Load
-	snapshot=1
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go/packages.Load
+	snapshot=0
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Info  - 4:27:29 PM] 2020/05/08 16:27:29 go/packages.Load
-	snapshot=1
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:27:29 PM] 2020/05/08 16:27:29 DocumentSymbols failed: getting file for DocumentSymbols: no PackageHandles
-	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode.go
-[Error - 4:27:29 PM] Request textDocument/documentLink failed.
-  Message: no PackageHandles
-  Code: 0 
-[Info  - 4:27:29 PM] 2020/05/08 16:27:29 go/packages.Load
-	snapshot=1
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Info  - 4:27:31 PM] 2020/05/08 16:27:31 go/packages.Load
-	snapshot=1
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Info  - 4:27:32 PM] 2020/05/08 16:27:32 go/packages.Load
-	snapshot=1
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:27:38 PM] Request textDocument/documentLink failed.
-  Message: no PackageHandles
-  Code: 0 
-[Info  - 4:27:38 PM] 2020/05/08 16:27:38 go/packages.Load
-	snapshot=2
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=0
-[Info  - 4:27:38 PM] 2020/05/08 16:27:38 go/packages.Load
-	snapshot=2
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=0
-[Error - 4:27:38 PM] 2020/05/08 16:27:38 DocumentSymbols failed: getting file for DocumentSymbols: no PackageHandles
-	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
-[Info  - 4:27:38 PM] 2020/05/08 16:27:38 go/packages.Load
-	snapshot=2
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=0
-[Info  - 4:27:39 PM] 2020/05/08 16:27:39 go/packages.Load
+	query=[./... builtin]
+	packages=3
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go/packages.Load
 	snapshot=3
-	package_path="command-line-arguments"
-	files=[]
-[Info  - 4:27:39 PM] 2020/05/08 16:27:39 go/packages.Load
+	directory=/Users/hduran/goplshatestags
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
+	packages=0
+[Error - 4:40:53 PM] 2020/05/08 16:40:53 DocumentSymbols failed: getting file for DocumentSymbols: no PackageHandles
+	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go/packages.Load
+	snapshot=3
+	directory=/Users/hduran/goplshatestags
+	query=[github.com/perrito666/goplshatestags/originpack github.com/perrito666/goplshatestags/targetpack]
+	packages=2
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go/packages.Load
+	snapshot=3
+	package_path="github.com/perrito666/goplshatestags/originpack"
+	files=[/Users/hduran/goplshatestags/originpack/importantcode.go]
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go/packages.Load
 	snapshot=3
 	package_path="github.com/perrito666/goplshatestags/targetpack"
-	files=[/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-[Info  - 4:27:39 PM] 2020/05/08 16:27:39 go/packages.Load
-	snapshot=3
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=2
-[Error - 4:27:39 PM] 2020/05/08 16:27:39 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:39 PM] 2020/05/08 16:27:39 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:40 PM] 2020/05/08 16:27:40 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:40 PM] 2020/05/08 16:27:40 no dep handle: no metadata for testing
-	package="testing"
-[Info  - 4:27:40 PM] 2020/05/08 16:27:40 go/packages.Load
-	snapshot=4
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Info  - 4:27:41 PM] 2020/05/08 16:27:41 go/packages.Load
-	snapshot=5
-	package_path="command-line-arguments"
-	files=[]
-[Info  - 4:27:41 PM] 2020/05/08 16:27:41 go/packages.Load
-	snapshot=5
-	directory=/Users/hduran/goplshatestags
-	query=[github.com/perrito666/goplshatestags/targetpack]
-	packages=1
-[Error - 4:27:41 PM] Request textDocument/foldingRange failed.
-  Message: successfully parsed but no token.File for file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go (/Users/hduran/goplshatestags/targetpack/targetcode_test.go:1:1: expected 'package', found '/' (and 2 more errors))
-  Code: 0 
-[Error - 4:27:41 PM] Request textDocument/codeLens failed.
-  Message: successfully parsed but no token.File for file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go (/Users/hduran/goplshatestags/targetpack/targetcode_test.go:1:1: expected 'package', found '/' (and 2 more errors))
-  Code: 0 
-[Error - 4:27:41 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: successfully parsed but no token.File for file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go (/Users/hduran/goplshatestags/targetpack/targetcode_test.go:1:1: expected 'package', found '/' (and 2 more errors))
-  Code: 0 
-[Info  - 4:27:41 PM] 2020/05/08 16:27:41 go/packages.Load
-	snapshot=5
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=1
-[Error - 4:27:41 PM] 2020/05/08 16:27:41 failed to load workspace packages, skipping diagnostics: github.com/perrito666/goplshatestags/targetpack [github.com/perrito666/goplshatestags/targetpack.test] has no metadata
-	snapshot=5
-	directory=file:///Users/hduran/goplshatestags
-[Info  - 4:27:41 PM] 2020/05/08 16:27:41 go/packages.Load
-	snapshot=5
-	package_path="command-line-arguments"
-	files=[]
-[Info  - 4:27:41 PM] 2020/05/08 16:27:41 go/packages.Load
-	snapshot=5
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=1
-[Info  - 4:27:41 PM] 2020/05/08 16:27:41 go/packages.Load
-	snapshot=5
-	package_path="command-line-arguments"
-	files=[/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-[Error - 4:27:41 PM] 2020/05/08 16:27:41 DocumentSymbols failed: getting file for DocumentSymbols: no parsed files for package command-line-arguments, expected: [/Users/hduran/goplshatestags/targetpack/targetcode_test.go], errors: [successfully parsed but no token.File for file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go (/Users/hduran/goplshatestags/targetpack/targetcode_test.go:1:1: expected 'package', found '/' (and 2 more errors))], list errors: []
-	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
-[Error - 4:27:42 PM] Request textDocument/documentLink failed.
-  Message: successfully parsed but no token.File for file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go (/Users/hduran/goplshatestags/targetpack/targetcode_test.go:1:1: expected 'package', found '/' (and 2 more errors))
-  Code: 0 
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=6
-	directory=/Users/hduran/goplshatestags
-	query=[github.com/perrito666/goplshatestags/targetpack]
-	packages=1
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=6
-	package_path="command-line-arguments"
-	files=[]
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 failed to load workspace packages, skipping diagnostics: github.com/perrito666/goplshatestags/targetpack [github.com/perrito666/goplshatestags/targetpack.test] has no metadata
-	snapshot=6
-	directory=file:///Users/hduran/goplshatestags
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=7
-	package_path="command-line-arguments"
-	files=[]
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=7
-	directory=/Users/hduran/goplshatestags
-	query=[github.com/perrito666/goplshatestags/targetpack]
-	packages=1
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=7
-	package_path="command-line-arguments"
-	files=[]
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=7
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=2
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=7
-	package_path="github.com/perrito666/goplshatestags/targetpack"
-	files=[/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for testing
-	package="testing"
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=7
-	package_path="command-line-arguments"
-	files=[/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=7
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
-	packages=1
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:27:42 PM] 2020/05/08 16:27:42 go/packages.Load
-	snapshot=8
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:42 PM] 2020/05/08 16:27:42 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for testing
-	package="testing"
-[Info  - 4:27:43 PM] 2020/05/08 16:27:43 go/packages.Load
-	snapshot=11
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:27:43 PM] 2020/05/08 16:27:43 go/packages.Load
-	snapshot=13
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:43 PM] 2020/05/08 16:27:43 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:27:44 PM] 2020/05/08 16:27:44 go/packages.Load
-	snapshot=18
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:27:44 PM] 2020/05/08 16:27:44 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:27:51 PM] Request textDocument/documentLink failed.
+	files=[/Users/hduran/goplshatestags/targetpack/targetcode.go]
+[Error - 4:40:53 PM] Request textDocument/documentLink failed.
   Message: no PackageHandles
   Code: 0 
-[Info  - 4:27:51 PM] 2020/05/08 16:27:51 go/packages.Load
-	snapshot=19
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go/packages.Load
+	snapshot=3
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go]
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
 	packages=0
-[Info  - 4:27:51 PM] 2020/05/08 16:27:51 go/packages.Load
-	snapshot=19
+[Info  - 4:40:53 PM] 2020/05/08 16:40:53 go/packages.Load
+	snapshot=3
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go]
+	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
 	packages=0
-[Error - 4:27:51 PM] 2020/05/08 16:27:51 DocumentSymbols failed: getting file for DocumentSymbols: no PackageHandles
-	URI=file:///Users/hduran/goplshatestags/originpack/test_fixtures.go
-[Info  - 4:27:51 PM] 2020/05/08 16:27:51 go/packages.Load
-	snapshot=19
+[Info  - 4:40:56 PM] 2020/05/08 16:40:56 go/packages.Load
+	snapshot=3
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
 	packages=0
-[Info  - 4:27:53 PM] 2020/05/08 16:27:53 go/packages.Load
-	snapshot=19
+[Error - 4:40:56 PM] 2020/05/08 16:40:56 no highlight: getting file for Highlight: no PackageHandles
+	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
+[Info  - 4:40:57 PM] 2020/05/08 16:40:57 go/packages.Load
+	snapshot=3
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go]
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
 	packages=0
-[Info  - 4:27:54 PM] 2020/05/08 16:27:54 go/packages.Load
-	snapshot=19
+[Info  - 4:40:58 PM] 2020/05/08 16:40:58 go/packages.Load
+	snapshot=3
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go]
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
 	packages=0
-[Info  - 4:27:55 PM] 2020/05/08 16:27:55 go/packages.Load
-	snapshot=19
+[Info  - 4:40:58 PM] 2020/05/08 16:40:58 go/packages.Load
+	snapshot=3
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go]
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
 	packages=0
-[Error - 4:27:55 PM] 2020/05/08 16:27:55 no highlight: getting file for Highlight: no PackageHandles
-	URI=file:///Users/hduran/goplshatestags/originpack/test_fixtures.go
-[Error - 4:27:56 PM] Request textDocument/definition failed.
+[Error - 4:40:58 PM] 2020/05/08 16:40:58 no highlight: getting file for Highlight: no PackageHandles
+	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
+[Info  - 4:40:59 PM] 2020/05/08 16:40:59 go/packages.Load
+	snapshot=3
+	directory=/Users/hduran/goplshatestags
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
+	packages=0
+[Error - 4:41:00 PM] Request textDocument/definition failed.
   Message: getting file for Identifier: no PackageHandles
   Code: 0 
-[Info  - 4:27:56 PM] 2020/05/08 16:27:56 go/packages.Load
-	snapshot=19
+[Info  - 4:41:00 PM] 2020/05/08 16:41:00 go/packages.Load
+	snapshot=3
 	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go]
+	query=[file=/Users/hduran/goplshatestags/targetpack/targetcode_test.go]
 	packages=0
-[Info  - 4:27:59 PM] 2020/05/08 16:27:59 background imports cache refresh starting
-[Info  - 4:27:59 PM] 2020/05/08 16:27:59 background refresh finished after 362.481464ms
-[Info  - 4:28:05 PM] 2020/05/08 16:28:05 go/packages.Load
-	snapshot=20
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no builtin package: no builtin package for view goplshatestags
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:05 PM] 2020/05/08 16:28:05 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:06 PM] 2020/05/08 16:28:06 no dep handle: no metadata for testing
-	package="testing"
-[Info  - 4:28:06 PM] 2020/05/08 16:28:06 go/packages.Load
-	snapshot=24
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:06 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:7: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:07 PM] Request textDocument/foldingRange failed.
-  Message: invalid pos
-  Code: 0 
-[Info  - 4:28:07 PM] 2020/05/08 16:28:07 go/packages.Load
-	snapshot=25
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:07 PM] 2020/05/08 16:28:07 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:07 PM] 2020/05/08 16:28:07 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:07 PM] 2020/05/08 16:28:07 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:07 PM] 2020/05/08 16:28:07 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:07 PM] 2020/05/08 16:28:07 DocumentSymbols failed: invalid pos
-	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
-[Error - 4:28:07 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:20:2: expected operand, found '}' (and 8 more errors)
-  Code: 0 
-[Error - 4:28:07 PM] 2020/05/08 16:28:07 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:08 PM] 2020/05/08 16:28:08 go/packages.Load
-	snapshot=27
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:11: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:08 PM] 2020/05/08 16:28:08 go/packages.Load
-	snapshot=31
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:08 PM] 2020/05/08 16:28:08 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:09 PM] 2020/05/08 16:28:09 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:10 PM] 2020/05/08 16:28:10 go/packages.Load
-	snapshot=46
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:10 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:30: missing ',' before newline in composite literal
-  Code: 0 
-[Info  - 4:28:10 PM] 2020/05/08 16:28:10 go/packages.Load
-	snapshot=47
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:10 PM] 2020/05/08 16:28:10 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:11 PM] 2020/05/08 16:28:11 go/packages.Load
-	snapshot=52
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:11 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:36: missing ',' before newline in composite literal
-  Code: 0 
-[Info  - 4:28:11 PM] 2020/05/08 16:28:11 go/packages.Load
-	snapshot=53
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:11 PM] 2020/05/08 16:28:11 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:12 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:35: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:13 PM] 2020/05/08 16:28:13 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:13 PM] 2020/05/08 16:28:13 go/packages.Load
-	snapshot=55
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:13 PM] 2020/05/08 16:28:13 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:13 PM] 2020/05/08 16:28:13 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:13 PM] 2020/05/08 16:28:13 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:13 PM] 2020/05/08 16:28:13 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:13 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:35: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:14 PM] 2020/05/08 16:28:14 go/packages.Load
-	snapshot=58
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:14 PM] 2020/05/08 16:28:14 go/packages.Load
-	snapshot=59
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:14 PM] 2020/05/08 16:28:14 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:15 PM] 2020/05/08 16:28:15 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:16 PM] 2020/05/08 16:28:16 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:16 PM] 2020/05/08 16:28:16 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:16 PM] 2020/05/08 16:28:16 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:16 PM] 2020/05/08 16:28:16 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:16 PM] 2020/05/08 16:28:16 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:16 PM] 2020/05/08 16:28:16 go/packages.Load
-	snapshot=73
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:16 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:47: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:17 PM] 2020/05/08 16:28:17 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:17 PM] 2020/05/08 16:28:17 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:17 PM] 2020/05/08 16:28:17 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:17 PM] 2020/05/08 16:28:17 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:17 PM] 2020/05/08 16:28:17 go/packages.Load
-	snapshot=75
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:17 PM] 2020/05/08 16:28:17 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:17 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:73: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:18 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:19:73: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:19 PM] 2020/05/08 16:28:19 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:19 PM] 2020/05/08 16:28:19 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:19 PM] 2020/05/08 16:28:19 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:19 PM] 2020/05/08 16:28:19 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:19 PM] 2020/05/08 16:28:19 no signature help: cannot find an enclosing function
-	position={18 73}
-[Info  - 4:28:20 PM] 2020/05/08 16:28:20 go/packages.Load
-	snapshot=76
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Info  - 4:28:20 PM] 2020/05/08 16:28:20 go/packages.Load
-	snapshot=77
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:20 PM] 2020/05/08 16:28:20 no builtin package: no builtin package for view goplshatestags
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:21 PM] 2020/05/08 16:28:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:21 PM] 2020/05/08 16:28:21 go/packages.Load
-	snapshot=81
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:21 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:20:7: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:22 PM] Request textDocument/foldingRange failed.
-  Message: invalid pos
-  Code: 0 
-[Info  - 4:28:22 PM] 2020/05/08 16:28:22 go/packages.Load
-	snapshot=82
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:22 PM] 2020/05/08 16:28:22 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:22 PM] 2020/05/08 16:28:22 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:22 PM] 2020/05/08 16:28:22 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:22 PM] 2020/05/08 16:28:22 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 DocumentSymbols failed: invalid pos
-	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
-[Error - 4:28:23 PM] Request textDocument/foldingRange failed.
-  Message: invalid pos
-  Code: 0 
-[Info  - 4:28:23 PM] 2020/05/08 16:28:23 go/packages.Load
-	snapshot=83
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:23 PM] 2020/05/08 16:28:23 go/packages.Load
-	snapshot=84
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:23 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:20:34: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:23 PM] 2020/05/08 16:28:23 no signature help: cannot get type for Fun *ast.Ident (CreateSomethingFromOrigin)
-	position={19 34}
-[Info  - 4:28:24 PM] 2020/05/08 16:28:24 go/packages.Load
-	snapshot=85
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:24 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:20:36: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:25 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:20:36: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:28:25 PM] 2020/05/08 16:28:25 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:25 PM] 2020/05/08 16:28:25 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:25 PM] 2020/05/08 16:28:25 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:25 PM] 2020/05/08 16:28:25 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:25 PM] 2020/05/08 16:28:25 no signature help: cannot find an enclosing function
-	position={19 36}
-[Info  - 4:28:25 PM] 2020/05/08 16:28:25 go/packages.Load
-	snapshot=86
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Info  - 4:28:26 PM] 2020/05/08 16:28:26 go/packages.Load
-	snapshot=87
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:26 PM] 2020/05/08 16:28:26 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:26 PM] 2020/05/08 16:28:26 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:26 PM] 2020/05/08 16:28:26 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:26 PM] 2020/05/08 16:28:26 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:29 PM] 2020/05/08 16:28:29 background imports cache refresh starting
-[Info  - 4:28:29 PM] 2020/05/08 16:28:29 background refresh finished after 34.50763ms
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:31 PM] 2020/05/08 16:28:31 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:32 PM] 2020/05/08 16:28:32 go/packages.Load
-	snapshot=96
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:32 PM] 2020/05/08 16:28:32 go/packages.Load
-	snapshot=101
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:28:32 PM] 2020/05/08 16:28:32 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:28:33 PM] 2020/05/08 16:28:33 go/packages.Load
-	snapshot=102
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Info  - 4:29:00 PM] 2020/05/08 16:29:00 background imports cache refresh starting
-[Info  - 4:29:00 PM] 2020/05/08 16:29:00 background refresh finished after 27.663639ms
-[Info  - 4:29:18 PM] 2020/05/08 16:29:18 go/packages.Load
-	snapshot=103
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:29:18 PM] 2020/05/08 16:29:18 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:18 PM] 2020/05/08 16:29:18 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:18 PM] 2020/05/08 16:29:18 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:18 PM] 2020/05/08 16:29:18 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:18 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:18:6: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:29:19 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:18:6: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:29:19 PM] Request textDocument/foldingRange failed.
-  Message: invalid pos
-  Code: 0 
-[Error - 4:29:19 PM] 2020/05/08 16:29:19 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:19 PM] 2020/05/08 16:29:19 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:19 PM] 2020/05/08 16:29:19 no dep handle: no metadata for testing
-	package="testing"
-[Info  - 4:29:19 PM] 2020/05/08 16:29:19 go/packages.Load
-	snapshot=104
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:29:19 PM] 2020/05/08 16:29:19 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:19 PM] 2020/05/08 16:29:19 DocumentSymbols failed: invalid pos
-	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
-[Error - 4:29:19 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:21:3: missing ',' before newline in composite literal (and 9 more errors)
-  Code: 0 
-[Error - 4:29:20 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:21:3: missing ',' before newline in composite literal (and 9 more errors)
-  Code: 0 
-[Error - 4:29:20 PM] Request textDocument/foldingRange failed.
-  Message: invalid pos
-  Code: 0 
-[Info  - 4:29:20 PM] 2020/05/08 16:29:20 go/packages.Load
-	snapshot=105
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:29:20 PM] 2020/05/08 16:29:20 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:20 PM] 2020/05/08 16:29:20 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:20 PM] 2020/05/08 16:29:20 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:20 PM] 2020/05/08 16:29:20 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:20 PM] 2020/05/08 16:29:20 DocumentSymbols failed: invalid pos
-	URI=file:///Users/hduran/goplshatestags/targetpack/targetcode_test.go
-[Error - 4:29:21 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:21:3: missing ',' before newline in composite literal
-  Code: 0 
-[Info  - 4:29:21 PM] 2020/05/08 16:29:21 go/packages.Load
-	snapshot=106
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:21 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:21:3: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:29:21 PM] Request textDocument/formatting failed.
-  Message: 21:3: missing ',' before newline in composite literal
-  Code: 0 
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:21 PM] 2020/05/08 16:29:21 no dep handle: no metadata for testing
-	package="testing"
-[Info  - 4:29:21 PM] 2020/05/08 16:29:21 go/packages.Load
-	snapshot=107
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:29:21 PM] Request textDocument/codeAction failed.
-  Message: computing fix edits: /Users/hduran/goplshatestags/targetpack/targetcode_test.go:21:3: missing ',' before newline in composite literal
-  Code: 0 
-[Info  - 4:29:24 PM] 2020/05/08 16:29:24 go/packages.Load
-	snapshot=108
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Info  - 4:29:24 PM] 2020/05/08 16:29:24 go/packages.Load
-	snapshot=110
-	directory=/Users/hduran/goplshatestags
-	query=[file=/Users/hduran/goplshatestags/originpack/test_fixtures.go file=/Users/hduran/goplshatestags/targetpack/targetcode.go]
-	packages=0
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for testing
-	package="testing"
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:24 PM] 2020/05/08 16:29:24 no dep handle: no metadata for github.com/perrito666/goplshatestags/importantcode
-	package="github.com/perrito666/goplshatestags/importantcode"
-[Error - 4:29:34 PM] Request textDocument/definition failed.
-  Message: no object for ident CreateSomethingFromOrigin
-  Code: 0 
-[Info  - 4:29:37 PM] 2020/05/08 16:29:37 background imports cache refresh starting
-[Info  - 4:29:37 PM] 2020/05/08 16:29:37 background refresh finished after 27.671447ms

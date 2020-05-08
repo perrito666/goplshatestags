@@ -3,11 +3,11 @@ package targetcode
 import (
 	"fmt"
 
-	"github.com/perrito666/goplshatestags/importantcode"
+	"github.com/perrito666/goplshatestags/originpack"
 )
 
 // UseSomething just makes use of importantcode
-func UseSomething(s *importantcode.SomethingFromOrigin) {
+func UseSomething(s *originpack.SomethingFromOrigin) {
 	if s == nil {
 		return
 	}
